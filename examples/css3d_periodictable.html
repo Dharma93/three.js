@@ -250,9 +250,16 @@
 
 				for ( var i = 0; i < table.length; i += 5 ) {
 
+					
 					var element = document.createElement( 'div' );
 					element.className = 'element';
+					
+					if(var table=="24 M"){
 					element.style.backgroundColor = 'rgba(0,127,127,1)';
+					}
+					else{
+						element.style.backgroundColor = 'rgba(255,0,0,1)';	
+					}
 
 					var number = document.createElement( 'div' );
 					number.className = 'number';
