@@ -8,18 +8,15 @@
 			html, body {
 				height: 100%;
 			}
-
 			body {
 				background-color: #000000;
 				margin: 0;
 				font-family: Helvetica, sans-serif;;
 				overflow: hidden;
 			}
-
 			a {
 				color: #ffffff;
 			}
-
 			#info {
 				position: absolute;
 				width: 100%;
@@ -31,14 +28,12 @@
 				text-align: center;
 				z-index: 1;
 			}
-
 			#menu {
 				position: absolute;
 				bottom: 20px;
 				width: 100%;
 				text-align: center;
 			}
-
 			.element {
 				width: 120px;
 				height: 160px;
@@ -47,12 +42,10 @@
 				text-align: center;
 				cursor: default;
 			}
-
 			.element:hover {
 				box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
 				border: 1px solid rgba(127,255,255,0.75);
 			}
-
 				.element .number {
 					position: absolute;
 					top: 20px;
@@ -60,7 +53,6 @@
 					font-size: 12px;
 					color: rgba(127,255,255,0.75);
 				}
-
 				.element .symbol {
 					position: absolute;
 					top: 40px;
@@ -71,7 +63,7 @@
 					color: rgba(255,255,255,0.75);
 					text-shadow: 0 0 10px rgba(0,255,255,0.95);
 				}
-			.element .details {
+				.element .details {
 					position: absolute;
 					bottom: 15px;
 					left: 0px;
@@ -79,10 +71,6 @@
 					font-size: 12px;
 					color: rgba(127,255,255,0.75);
 				}
-				
-
-			
-
 			button {
 				color: rgba(127,255,255,0.75);
 				background: transparent;
@@ -98,8 +86,6 @@
 				color: #000000;
 				background-color: rgba(0,255,255,0.75);
 			}
-			
-
 		</style>
 	</head>
 	<body>
@@ -109,7 +95,7 @@
 		<script src="js/renderers/CSS3DRenderer.js"></script>
 
 		<div id="container"></div>
-		<div id="info"><a href="http://threejs.org" target="_blank" rel="noopener">three.js css3d</a> - periodic table. <a href="https://plus.google.com/113862800338869870683/posts/QcFk5HrWran" target="_blank" rel="noopener">info</a>.</div>
+		<div id="info"><a href="http://threejs.org" target="_blank">three.js css3d</a> - periodic table. <a href="https://plus.google.com/113862800338869870683/posts/QcFk5HrWran" target="_blank">info</a>.</div>
 		<div id="menu">
 			<button id="table">TABLE</button>
 			<button id="sphere">SPHERE</button>
